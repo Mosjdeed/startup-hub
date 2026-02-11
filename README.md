@@ -2,8 +2,6 @@
 
 **Startup Incubator Management System built on Frappe Framework**
 
-![Startup Hub Landing Page](screenshots/landing.png)
-
 ## 📋 Description
 
 A comprehensive management system for startup incubators and accelerators, featuring:
@@ -61,6 +59,8 @@ bench migratestartup_hub/
 │   ├── workspace/
 │   └── www/
 │       └── startup-hub/
+
+<img width="1623" height="758" alt="image" src="https://github.com/user-attachments/assets/2360b64e-5169-4321-b81a-f9a47947f626" />
 
 ## Key Technical Implementations
 ### Server-Side: Auto-Calculate Funding
