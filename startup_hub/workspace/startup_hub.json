@@ -1,0 +1,10 @@
+{
+  "charts": [],
+  "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Startup Hub\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Startup\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Founder\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mentor\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Investor\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Funding Round\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Meeting\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Milestone\",\"col\":4}}]",
+  "doctype": "Workspace",
+  "label": "Startup Hub",
+  "module": "Startup Hub",
+  "name": "Startup Hub",
+  "public": 1,
+  "shortcuts": []
+}

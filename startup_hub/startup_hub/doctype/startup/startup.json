@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-02-10 17:54:21.807663",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "startup_section",
+  "startup_name",
+  "description",
+  "industry",
+  "stage",
+  "founded_date",
+  "website",
+  "status",
+  "mentors",
+  "total_funding",
+  "funding_rounds_count"
+ ],
+ "fields": [
+  {
+   "fieldname": "startup_section",
+   "fieldtype": "Section Break",
+   "label": "Startup"
+  },
+  {
+   "fieldname": "startup_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Startup Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Select",
+   "label": "Industry",
+   "options": "Technology\nHealthcare\nEducation\nFinance\nE-commerce\nFood & Beverage\nOther"
+  },
+  {
+   "fieldname": "stage",
+   "fieldtype": "Select",
+   "label": "Stage",
+   "options": "Idea\nMVP\nSeed\nGrowth"
+  },
+  {
+   "fieldname": "founded_date",
+   "fieldtype": "Date",
+   "label": "Founded Date"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Active\nGraduated\nDropped",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mentors",
+   "fieldtype": "Table",
+   "label": "Mentors",
+   "options": "Startup Mentor"
+  },
+  {
+   "fieldname": "total_funding",
+   "fieldtype": "Currency",
+   "label": "Total Funding",
+   "read_only": 1
+  },
+  {
+   "fieldname": "funding_rounds_count",
+   "fieldtype": "Int",
+   "label": "Funding Rounds Count",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-02-11 16:56:13.502265",
+ "modified_by": "Administrator",
+ "module": "Startup Hub",
+ "name": "Startup",
+ "owner": "wmostafa452@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
